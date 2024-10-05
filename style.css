@@ -1,0 +1,374 @@
+body{
+    background-color: hsl(218, 28%, 13%);
+    grid-template-columns: 1fr 1fr;
+}
+#nav-logo{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+#nav-links{
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+    padding-right: 50px;
+    margin-top: -30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover{
+    cursor: pointer;
+}
+#banner{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#banner-img{
+    padding-top: 50px;
+}
+#banner-header{
+    color: white;
+}
+#banner-content{
+    color: white;
+}
+#footer-button{
+    border-radius: 25px;
+    height: 40px;
+    width:180px
+}
+#footer-button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+#features-section1{
+    display: flex;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.card1{
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.card-header1{
+    font-size: 15px;
+}
+.card-content1{
+    font-size: 17px;
+}
+#features-section2{
+    display: flex;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.card-header2{
+    font-size: 15px;
+}
+.card-content2{
+    font-size: 16px;
+}
+#banner2-img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#banner2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 800px;
+    margin-top: -300px;
+    margin-bottom: 150px;
+}
+.banner2-content{
+    padding-left: 0px;
+}
+#big-quote{
+    margin-left: 160px;
+    margin-bottom: -100px;
+}
+#testimonials{
+    display: flex;
+    margin-left: 90px;
+}
+p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+.card2{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 3px;
+    width: 280px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+.card2-content{
+    padding-left: 10px;
+    line-height: 5px;
+}
+#footer{
+    background-color:  hsl(216, 53%, 9%);
+    margin-top: 200px;
+    height: 400px;
+}
+#footer-card{
+    background-color:  hsl(219, 30%, 18%);
+    width: 600px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+    position: absolute;
+    left: 400px;
+    margin-top: -100px;
+}
+#email{
+    border-radius: 25px;
+    margin-right: 10px;
+    height: 33px;
+    width:300px
+}
+#footer-img{
+    margin-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+#footer-body{
+    padding-left: 120px;
+}
+#contact{
+    padding-top: 30px;
+    margin-left: 500px;
+    margin-top: -100px;
+    line-height: 18px;
+}
+#footer-links1{
+    margin-left: 750px;
+    margin-top: -75px;
+}
+#footer-links2{
+    margin-left: 900px;
+    margin-top: -105px;
+}
+#footer-body-icon{
+    margin-left: -30px;
+    padding-right: 15px;
+}
+#footer-icon{
+    padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: hsl(218, 28%, 13%); 
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    #nav-logo{
+        margin-top: 0px;
+        margin-left: -60px;
+    }
+    #nav-links{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: left;
+        margin-left: 60px;
+        margin-top: 40px; 
+    }
+    #banner{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #banner-img{
+        padding-top: 50px;
+        width: 300px;
+    }
+    #banner-header{
+        color: white;
+    }
+    #banner-content{
+        color: white;
+    }
+    #button{
+        border-radius: 25px;
+        height: 40px;
+        width:250px
+    }
+    #button:hover{
+        background-color: aquamarine;
+        color: white;
+    }
+    #features-section1{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 140px;
+        margin-left: -140px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+    .features-section1-icon{
+        padding-right: 20px;
+        margin-left: 130px;
+        padding-top: 10px;
+    }
+    .card1{
+        justify-content: space-between;
+        padding-left: 150px;
+        width: 400px;
+    }
+    .card-header1{
+        font-size: 20px;
+    }
+    .card-content1{
+        font-size: 22px;
+        margin-left: -30px;
+    }
+    #features-section2{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: -140px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+    .card-header2{
+        font-size: 20px;
+    }
+    .card-content2{
+        font-size: 21px;
+        margin-left: -30px;
+    }
+    #banner2-img{
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    #banner2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .banner2-content{
+        padding-left: 0px;
+    }
+    #big-quote{
+        margin-left: -450px;
+        margin-bottom: -100px;
+    }
+    #testimonials{
+        display: contents;
+        margin-left: 90px;
+        margin-top: -300px;
+    }
+    p{
+        color: white;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left:10px;
+    }
+    .card2-header{
+        margin-left: -20px;
+    }
+    .card2{
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 3px;
+        width: 350px;
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .card2-content{
+        padding-left: 10px;
+        line-height: 5px;
+    }
+    #footer{
+        background-color:  hsl(216, 53%, 9%);
+        margin-top: 400px;
+        height: 550px;
+        margin-left: -10px;
+    }
+    #footer-card{
+        background-color:  hsl(219, 30%, 18%);
+        width: 380px;
+        height: 250px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        margin-left: -400px;
+        margin-top: -300px;
+    }
+    #footer-header{
+        margin-left: -20px;
+        font-size: 25px;
+    }
+    #footer-content{
+        margin-left: -40px;
+        font-size: 15px;
+    }
+    #email{
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+        padding-left: 30px;
+        height: 33px;
+        width:300px
+    }
+    #card-button{
+        border-radius: 25px;
+        margin-left: -20px;
+        height: 40px;
+        width:250px
+    }
+    #card-button:hover{
+        background-color: aquamarine;
+        color: white;
+    }
+    #footer-img{
+        margin-top: 30px;
+        margin-left: -250px;
+        padding-bottom: 10px;
+    }
+    #footer-body{
+        margin-left: -110px;
+        text-align: left;
+    }
+    #contact{
+        padding-top: 20px;
+        margin-left: -150px;
+        margin-top: -10px;
+        line-height: 18px;
+    }
+    #footer-links1{
+        margin-left: -180px;
+        padding-top: 100px;
+    }
+    #footer-links2{
+        margin-left: 110px;
+        margin-top: -140px;
+    }
+    #footer-body-icon{
+        margin-left: -30px;
+        padding-right: 15px;
+    }
+    #footer-icon{
+        padding-right: 20px;
+    }
+}
